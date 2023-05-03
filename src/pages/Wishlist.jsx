@@ -6,7 +6,7 @@ import { FiEdit } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
 
 export default function Wishlist() {
-  let PkgDataFromLocal = JSON.parse(localStorage.getItem("fav"));
+  let PkgDataFromLocal = JSON.parse(localStorage.getItem("fav")) || [];
   const [localData, setLocalData] = useState(PkgDataFromLocal);
   const navigate = useNavigate();
 

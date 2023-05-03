@@ -46,7 +46,7 @@ export default function Search() {
       <div className={style.mainBox}>
         <div
           style={{
-            alignSelf: "start",
+           
             fontWeight: "900",
             color: "#576775",
             fontSize: "18px",
